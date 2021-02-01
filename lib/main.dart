@@ -23,7 +23,7 @@ class PokedexApp extends StatelessWidget {
 
     return MaterialApp(
       color: Colors.white,
-      title: 'Flutter Pokedex',
+      title: 'Speed Car',
       theme: ThemeData(
         fontFamily: AppFonts.circularStd,
         textTheme: theme.textTheme.apply(
