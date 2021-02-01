@@ -261,3 +261,4 @@ final _pokemonEffectivenessMap = <PokemonTypes, Map<PokemonTypes, double>>{
     PokemonTypes.steel: 2,
   },
 };
+

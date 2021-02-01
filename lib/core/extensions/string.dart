@@ -11,3 +11,4 @@ extension StringX on String {
     return double.tryParse(replaceAll(RegExp(r'[^0-9\.]'), '')) ?? defaultValue;
   }
 }
+

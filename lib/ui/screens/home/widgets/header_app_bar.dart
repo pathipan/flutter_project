@@ -17,7 +17,7 @@ class _HeaderAppBar extends StatelessWidget {
     }
 
     return Text(
-      'Pokedex',
+      'Speed Car',
       style: TextStyle(
         fontWeight: FontWeight.bold,
       ),
@@ -81,11 +81,12 @@ class _HeaderAppBar extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 28),
                 child: Text(
-                  'What Pokemon\nare you looking for?',
+                  'Speed Car \nพร้อมให้บริการ...',
                   style: TextStyle(
                     fontSize: 30,
                     height: 1.4 * context.responsive(30) / 30,
                     fontWeight: FontWeight.w900,
+                    color: Colors.red,
                   ),
                 ),
               ),

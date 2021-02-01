@@ -13,7 +13,7 @@ class _PokemonNews extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            'Pokémon News',
+            'News Cars',
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w900,
@@ -40,14 +40,53 @@ class _PokemonNews extends StatelessWidget {
         _buildHeader(context),
         ListView.separated(
           shrinkWrap: true,
-          itemCount: 9,
+          itemCount: 1,
           separatorBuilder: (context, index) => Divider(),
           physics: NeverScrollableScrollPhysics(),
           itemBuilder: (context, index) {
             return PokeNews(
-              title: 'Pokémon Rumble Rush Arrives Soon',
-              time: '15 May 2019',
-              thumbnail: AppImages.thumbnail,
+              title: 'Yaris ATIV \nThis is what i am',
+              time: '15 มกราคม 2021',
+              thumbnail: AppImages.yaris,
+            );
+          },
+        ),
+        ListView.separated(
+          shrinkWrap: true,
+          itemCount: 1,
+          separatorBuilder: (context, index) => Divider(),
+          physics: NeverScrollableScrollPhysics(),
+          itemBuilder: (context, index) {
+            return PokeNews(
+              title: 'C-HR \nIrresistible',
+              time: '10 มกราคม 2020',
+              thumbnail: AppImages.c_hr,
+            );
+          },
+        ),
+        ListView.separated(
+          shrinkWrap: true,
+          itemCount: 1,
+          separatorBuilder: (context, index) => Divider(),
+          physics: NeverScrollableScrollPhysics(),
+          itemBuilder: (context, index) {
+            return PokeNews(
+              title: 'Yaris ATIV \nThis is what i am',
+              time: '15 มกราคม 2021',
+              thumbnail: AppImages.yaris,
+            );
+          },
+        ),
+        ListView.separated(
+          shrinkWrap: true,
+          itemCount: 1,
+          separatorBuilder: (context, index) => Divider(),
+          physics: NeverScrollableScrollPhysics(),
+          itemBuilder: (context, index) {
+            return PokeNews(
+              title: 'C-HR \nIrresistible',
+              time: '10 มกราคม 2020',
+              thumbnail: AppImages.c_hr,
             );
           },
         ),

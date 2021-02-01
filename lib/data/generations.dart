@@ -66,3 +66,4 @@ const List<Generation> generations = [
     ],
   ),
 ];
+

@@ -11,8 +11,7 @@ class LocalDataSource {
     await Hive.initFlutter();
 
     Hive.registerAdapter<PokemonHiveModel>(PokemonHiveModelAdapter());
-    Hive.registerAdapter<PokemonGenderHiveModel>(
-        PokemonGenderHiveModelAdapter());
+    Hive.registerAdapter<PokemonGenderHiveModel>(PokemonGenderHiveModelAdapter());
     Hive.registerAdapter<PokemonStatsHiveModel>(PokemonStatsHiveModelAdapter());
 
     await Hive.openBox<PokemonHiveModel>(PokemonHiveModel.boxKey);
